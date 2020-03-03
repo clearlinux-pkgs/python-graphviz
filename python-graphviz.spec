@@ -4,10 +4,10 @@
 #
 Name     : python-graphviz
 Version  : 0.13.2
-Release  : 14
+Release  : 15
 URL      : https://files.pythonhosted.org/packages/5d/71/f63fe59145fca7667d92475f1574dd583ad1f48ab228e9a5dddd5733197f/graphviz-0.13.2.zip
 Source0  : https://files.pythonhosted.org/packages/5d/71/f63fe59145fca7667d92475f1574dd583ad1f48ab228e9a5dddd5733197f/graphviz-0.13.2.zip
-Summary  : Simple Python interface for Graphviz
+Summary  : Simple Python interface for Graphviz.
 Group    : Development/Tools
 License  : MIT
 Requires: python-graphviz-license = %{version}-%{release}
@@ -21,28 +21,10 @@ BuildRequires : tox
 BuildRequires : virtualenv
 
 %description
+Graphviz
 ========
-        
-        |PyPI version| |License| |Supported Python| |Format| |Docs|
-        
-        |Travis| |Codecov|
-        
-        This package facilitates the creation and rendering of graph descriptions in
-        the DOT_ language of the Graphviz_ graph drawing software (`master repo`_) from
-        Python.
-        
-        Create a graph object, assemble the graph by adding nodes and edges, and
-        retrieve its DOT source code string. Save the source code to a file and render
-        it with the Graphviz installation of your system.
-        
-        Use the ``view`` option/method to directly inspect the resulting (PDF, PNG,
-        SVG, etc.) file with its default application. Graphs can also be rendered
-        and displayed within `Jupyter notebooks`_ (formerly known as
-        `IPython notebooks`_, example_) as well as the `Jupyter Qt Console`_.
-        
-        
-        Links
-        -----
+|PyPI version| |License| |Supported Python| |Format| |Docs|
+|Travis| |Codecov|
 
 %package license
 Summary: license components for the python-graphviz package.
@@ -79,7 +61,8 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1580172246
+export SOURCE_DATE_EPOCH=1583212309
+# -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
