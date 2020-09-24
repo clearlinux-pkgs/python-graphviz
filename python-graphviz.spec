@@ -4,7 +4,7 @@
 #
 Name     : python-graphviz
 Version  : 0.14.1
-Release  : 19
+Release  : 20
 URL      : https://files.pythonhosted.org/packages/77/e8/87b45e4a4c21f9d5c227a83723ec1ecc4f915db4be1d0e92e19a428a9d6e/graphviz-0.14.1.zip
 Source0  : https://files.pythonhosted.org/packages/77/e8/87b45e4a4c21f9d5c227a83723ec1ecc4f915db4be1d0e92e19a428a9d6e/graphviz-0.14.1.zip
 Summary  : Simple Python interface for Graphviz
