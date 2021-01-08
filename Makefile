@@ -1,5 +1,5 @@
 PKG_NAME := python-graphviz
-URL = https://files.pythonhosted.org/packages/d9/2f/0a34b00d05e3244ce65041cabf7b637ed2e727c3a053c86b1cebd11f190d/graphviz-0.14.2.zip
+URL = https://files.pythonhosted.org/packages/cc/a3/8f49063fee2037892f66f1a4d55da8ba25235e76dc27887f7edf95272154/graphviz-0.16.zip
 ARCHIVES = 
 
 include ../common/Makefile.common
